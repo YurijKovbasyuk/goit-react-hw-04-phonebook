@@ -1,0 +1,36 @@
+.form {
+  margin: 0 auto;
+  max-width: max-content;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+.input {
+  width: 180px;
+  padding: 5px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  border-radius: 10px;
+  border: 3px solid black;
+  transition: 0.2s;
+}
+.input:hover,
+.input:focus {
+  border: 3px solid rgb(64, 234, 240);
+}
+.form {
+  padding: 30px;
+  border: 2px solid black;
+  border-radius: 15px;
+}
+.button {
+  font-size: 14px;
+  font-weight: 100;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  border: none;
+  background-color: rgb(64, 234, 240);
+  width: 100px;
+  padding: 10px 20px;
+  margin: 20px;
+  border-radius: 25px;
+}
