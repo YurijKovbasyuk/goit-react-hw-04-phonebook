@@ -5,7 +5,7 @@ import PropTypes from 'prop-types';
 function ContactList({ onDelete, onFilter }) {
   return (
     <div>
-      <ul className={styles.contacts}>
+      <ul className={styles.cont}>
         {onFilter().map(contact => {
           const { id, number, name } = contact;
           return (
